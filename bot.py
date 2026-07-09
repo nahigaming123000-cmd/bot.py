@@ -14,7 +14,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 
 # ==================== CONFIG SECTION ====================
 
-BOT_TOKEN = "8312212025:AAGQVy_EzFkFqlcqsSsi8r4yPDAQw_01dFw"
+BOT_TOKEN = "8818304778:AAGS3oErhBrePiw_xa7hYa9OLBdx_U2gY0Y"
 API_KEY = "api_key_by_mino"
 BASE_URL = "https://mino-sms-panel.xyz"           # প্যানেল ডোমেন
 USER_DATA_FILE = "users.json"
@@ -28,9 +28,9 @@ DATA_RANGE_FILE = "datarange.json"
 CUSTOM_SERVICES_FILE = "custom_services.json"
 
 # ==================== MULTIPLE ADMINS CONFIGURATION ====================
-ADMINS = [7940416120]
+ADMINS = [8216845222]
 
-OTP_GROUP_ID = -1003768160049
+OTP_GROUP_ID = --1004337830690
 
 # ==================== WELCOME MESSAGE CONFIGURATION ====================
 WELCOME_MESSAGE = """⚡ 𝗠𝗜𝗡𝗢 𝗦𝗠𝗦 𝗣𝗔𝗡𝗘𝗟 𝗕𝗢𝗧 ⚡ 
@@ -46,7 +46,7 @@ MIN_WITHDRAW = 50
 MAX_WITHDRAW = 10000
 
 # ==================== SUPPORT LINK (EDITABLE) ====================
-SUPPORT_LINK = "https://t.me/MinoXSupport0"      # সাপোর্ট লিংক পরিবর্তনযোগ্য
+SUPPORT_LINK = "https://t.me/nahivex01"      # সাপোর্ট লিংক পরিবর্তনযোগ্য
 
 request_queue = asyncio.Queue()
 MAX_WORKERS = 50000000000000000000000000000
