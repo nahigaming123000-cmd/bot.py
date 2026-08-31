@@ -26,7 +26,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 # This is the complete single-file bot. Replace the two placeholders below.
 # Never share this file after putting real credentials in it.
 CONFIG_BOT_TOKEN = "8576684202:AAGS_TeRUi8xpwvUItFSN_Rlp7pqTiGt-Zk"
-CONFIG_ZENEX_API_KEY = "ZNX_0L6V54ZNXOBN0I7LYN9IRV8M"
+CONFIG_ZENEX_API_KEY = "ZNX_LX0KGRY4JJ77LBEO760PGKI9"
 CONFIG_ZENEX_BASE_URL = "https://api.zenexnetwork.com"
 CONFIG_ADMIN_ID = 7360402390
 CONFIG_OTP_GROUP_ID = -5565061612
@@ -1719,7 +1719,7 @@ async def fast_allocate_number(query, context, range_text, sid):
     # ★★★ USER BUTTONS COLOR UPDATED ★★★
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="primary")],
-        [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+        [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/otpbot2027", style="primary")]
     ])
     try:
         await query.message.edit_text(text, parse_mode="HTML", reply_markup=keyboard)
@@ -1803,7 +1803,7 @@ async def process_auto_number(update, context, range_text):
         # ★★★ SAME RANGE BUTTON COLOR IN AUTO NUMBER (FOR CONSISTENCY) ★★★
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="primary")],
-            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/otpbot2027", style="primary")]
         ])
         await status_msg.edit_text(final_text, parse_mode="HTML", reply_markup=keyboard)
 
@@ -1893,7 +1893,7 @@ async def process_numbers(update_or_query, context, range_text, count):
         # ★★★ PROCESS NUMBERS BUTTONS COLOR UPDATE (FOR SINGLE NUMBER) ★★★
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔄 SAME RANGE", callback_data="same_range", style="primary")],
-            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")]
+            [InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/otpbot2027", style="primary")]
         ])
 
         await status_msg.edit_text(final_text, parse_mode="HTML", reply_markup=keyboard)
@@ -3785,7 +3785,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if r_text:
             try:
                 await query.message.edit_reply_markup(reply_markup=InlineKeyboardMarkup([[
-                    InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/volt_x_lite_otp", style="primary")
+                    InlineKeyboardButton("📢 OTP GROUP", url="https://t.me/otpbot2027", style="primary")
                 ]]))
             except:
                 pass
